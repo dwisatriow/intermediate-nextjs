@@ -29,7 +29,7 @@ const SignupForm = () => {
         placeholder="Password"
         required
       />
-      <SubmitButton label={'signup'} />
+      <SubmitButton label={'Sign up'} />
 
       <div>
         <Link href="/signin">{`Already have an account?`}</Link>
