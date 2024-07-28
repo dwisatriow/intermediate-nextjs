@@ -5,7 +5,6 @@ import { getUserFromToken } from './authTools'
 import { cache } from 'react'
 
 export const getCurrentUser = cache(() => {
-  console.log('get user')
   const token = cookies().get(COOKIE_NAME)
   if (!token) redirect('/signin')
 
